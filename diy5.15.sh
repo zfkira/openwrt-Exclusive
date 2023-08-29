@@ -28,10 +28,10 @@ git clone https://github.com/sirpdboy/luci-theme-opentopd.git package/luci-theme
 # git clone https://github.com/QiuSimons/openwrt-mos.git package/openwrt-mos
 # find ./ | grep Makefile | grep v2ray-geodata | xargs rm -f
 git clone https://github.com/xiaorouji/openwrt-passwall.git package/openwrt-passwall
-git clone -b luci https://github.com/xiaorouji/openwrt-passwall.git package/passwall
+git clone -b luci-smartdns-new-version https://github.com/xiaorouji/openwrt-passwall package/passwalls
 # git clone -b luci-smartdns-new-version https://github.com/xiaorouji/openwrt-passwall.git package/passwall
 # git clone https://github.com/firkerword/luci-app-mosdns.git package/mosdns
-# git clone https://github.com/firkerword/luci-app-smartdns.git package/luci-app-smartdns
+git clone -b lede https://github.com/pymumu/luci-app-smartdns package/luci-app-smartdns
 # git clone https://github.com/firkerword/smartdns.git package/smartdns
 # git clone https://github.com/xiaorouji/openwrt-passwall2.git package/passwall2
 find ./ | grep Makefile | grep v2ray-geodata | xargs rm -f
