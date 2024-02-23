@@ -43,6 +43,8 @@ git clone https://github.com/sirpdboy/luci-theme-opentopd.git package/luci-theme
 # find ./ | grep Makefile | grep v2ray-geodata | xargs rm -f
 git clone https://github.com/xiaorouji/openwrt-passwall-packages.git package/openwrt-passwall
 git clone https://github.com/xiaorouji/openwrt-passwall.git package/passwall
+git clone https://github.com/firkerword/luci-app-smartdns.git package/luci-app-smartdns
+git clone https://github.com/firkerword/smartdns.git package/smartdns
 # git clone -b luci-smartdns-new-version https://github.com/xiaorouji/openwrt-passwall.git package/passwall
 # git clone https://github.com/firkerword/luci-app-mosdns.git package/mosdns
 # git clone https://github.com/firkerword/luci-app-smartdns.git package/luci-app-smartdns
